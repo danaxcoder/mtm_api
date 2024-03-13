@@ -1,0 +1,114 @@
+CRITICAL - 2024-03-11 09:49:33 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-11 09:50:09 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2024-03-11 08:53:14 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bhia6715_mtm'@'localhost' (using password: YES) in C:\xampp\htdocs\mtm_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\mtm_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\mtm_api\app\Controllers\User.php(386): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(942): App\Controllers\User->get_settings()
+#5 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mtm_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\mtm_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\mtm_api\app\Controllers\User.php(386): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(942): App\Controllers\User->get_settings()
+#4 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mtm_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-11 08:53:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\User.php(386): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `setting`')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_settings()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-11 08:53:32 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bhia6715_mtm'@'localhost' (using password: YES) in C:\xampp\htdocs\mtm_api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\mtm_api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\mtm_api\app\Controllers\User.php(386): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(942): App\Controllers\User->get_settings()
+#5 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mtm_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\mtm_api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\mtm_api\app\Controllers\User.php(386): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(942): App\Controllers\User->get_settings()
+#4 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mtm_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-11 08:53:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\User.php(386): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `setting`')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_settings()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 13:54:14 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 443.
+ 1 APPPATH\Controllers\User.php(443): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\mtm_api\\app\\Controllers\\User.php', 443)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_tasks()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 13:56:36 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 443.
+ 1 APPPATH\Controllers\User.php(443): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\mtm_api\\app\\Controllers\\User.php', 443)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_tasks()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 13:56:56 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 443.
+ 1 APPPATH\Controllers\User.php(443): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\mtm_api\\app\\Controllers\\User.php', 443)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_tasks()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 13:58:25 --> sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\User.php on line 444.
+ 1 APPPATH\Controllers\User.php(444): sizeof('[1,2]')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_tasks()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 13:59:18 --> sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\User.php on line 444.
+ 1 APPPATH\Controllers\User.php(444): sizeof('[1,2]')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_tasks()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 16:03:52 --> Undefined property: App\Controllers\User::$input
+in APPPATH\Controllers\User.php on line 459.
+ 1 APPPATH\Controllers\User.php(459): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', 'C:\\xampp\\htdocs\\mtm_api\\app\\Controllers\\User.php', 459)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_task_details()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

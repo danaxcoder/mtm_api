@@ -1,0 +1,1800 @@
+ERROR - 2024-01-16 06:01:03 --> mysqli_sql_exception: Table 'mtm.customers' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/Setup.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-16 06:01:04 --> Table 'mtm.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Setup.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customers`')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:01:16 --> mysqli_sql_exception: Table 'mtm.customers' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/Setup.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-16 06:01:17 --> Table 'mtm.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Setup.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customers`')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:01:31 --> mysqli_sql_exception: Table 'mtm.customers' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/Setup.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-16 06:01:31 --> Table 'mtm.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Setup.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customers`')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:02:00 --> mysqli_sql_exception: Table 'mtm.customers' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/Setup.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-16 06:02:00 --> Table 'mtm.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Setup.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customers`')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:05:02 --> mysqli_sql_exception: Table 'mtm.customers' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `custome...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `custome...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `custome...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/Setup.php(22): CodeIgniter\Database\BaseConnection->query('UPDATE `custome...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-16 06:05:02 --> Table 'mtm.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Setup.php(22): CodeIgniter\Database\BaseConnection->query('UPDATE `customers` SET `area_id`=0 WHERE `id`=1')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:05:05 --> mysqli_sql_exception: Table 'mtm.customers' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `custome...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `custome...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `custome...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/Setup.php(22): CodeIgniter\Database\BaseConnection->query('UPDATE `custome...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-16 06:05:05 --> Table 'mtm.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Setup.php(22): CodeIgniter\Database\BaseConnection->query('UPDATE `customers` SET `area_id`=0 WHERE `id`=1')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:05:44 --> mysqli_sql_exception: Table 'mtm.customers' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `custome...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `custome...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `custome...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/Setup.php(22): CodeIgniter\Database\BaseConnection->query('UPDATE `custome...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-16 06:05:44 --> Table 'mtm.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/Setup.php(22): CodeIgniter\Database\BaseConnection->query('UPDATE `customers` SET `area_id`=0 WHERE `id`=1')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:14:58 --> mysqli_sql_exception: Table 'mtm.areas' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-16 06:14:58 --> Table 'mtm.areas' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `areas`')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:14:58 --> mysqli_sql_exception: Table 'mtm.areas' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-16 06:14:58 --> Table 'mtm.areas' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `areas`')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:17:31 --> mysqli_sql_exception: Table 'mtm.areas' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-16 06:17:31 --> Table 'mtm.areas' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `areas`')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:17:49 --> mysqli_sql_exception: Table 'mtm.areas' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-16 06:17:49 --> Table 'mtm.areas' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `areas`')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:22:28 --> Error connecting to the database: mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 06:22:28 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=16821 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:22:28 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 06:22:28 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:22:30 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 06:22:30 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:22:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 06:22:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:22:33 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:22:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:22:33 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:22:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:22:52 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/Setup.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/Setup.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:22:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/Setup.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Setup->populate_area_ids()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setup))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:22:59 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:22:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:23:31 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:23:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:23:35 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:23:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:24:04 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:24:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:24:07 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:24:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:24:48 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:24:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:25:09 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:25:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:25:13 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:25:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 06:25:43 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 06:25:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:47:09 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=6069 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 07:47:09 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=6071 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:47:09 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 07:47:09 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:47:53 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 07:47:53 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:47:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 07:47:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:48:22 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:48:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:48:23 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:48:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:48:43 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:48:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:48:43 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:48:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:48:57 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:48:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:48:57 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:48:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:49:34 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:49:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:49:34 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:49:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:49:48 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 07:49:48 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:49:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 07:49:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:50:09 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:50:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:50:09 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:50:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:51:16 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 07:51:16 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:51:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 07:51:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:51:24 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 07:51:24 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:51:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 07:51:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:52:13 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:52:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:52:13 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:52:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 07:52:27 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 07:52:27 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 07:52:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 07:52:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 11:35:21 --> Error connecting to the database: mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 11:35:21 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=18734 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 11:35:21 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 11:35:21 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 11:49:24 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(143): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_unpaying_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(143): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_unpaying_customers()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 11:49:24 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(60): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer_data()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(60): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer_data()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 11:49:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(143): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `overdue` WHERE `paid`=0 AND MONTH(`updated_at`)=01 AND YEAR(`updated_at`)=2024')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_unpaying_customers()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 11:49:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(60): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer_data()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 11:49:25 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(60): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer_data()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(60): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer_data()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 11:49:25 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(143): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_unpaying_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(143): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_unpaying_customers()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 11:49:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(60): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer_data()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 11:49:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(143): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `overdue` WHERE `paid`=0 AND MONTH(`updated_at`)=01 AND YEAR(`updated_at`)=2024')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_unpaying_customers()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 11:54:26 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(60): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer_data()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(60): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer_data()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 11:54:26 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(143): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_unpaying_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(143): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_unpaying_customers()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 11:54:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(143): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `overdue` WHERE `paid`=0 AND MONTH(`updated_at`)=01 AND YEAR(`updated_at`)=2024')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_unpaying_customers()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 11:54:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(60): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer_data()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-16 12:01:01 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_areas()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-01-16 12:01:01 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'mtm', Object(SensitiveParameterValue), 'mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_packages()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-16 12:01:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `area`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_areas()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 12:01:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

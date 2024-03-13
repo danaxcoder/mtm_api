@@ -1,0 +1,36 @@
+ERROR - 2024-02-20 01:13:11 --> mysqli_sql_exception: Table 'bhia6715_mtm.package' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(272): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-02-20 01:13:11 --> Table 'bhia6715_mtm.package' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(272): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `package` WHERE `id`=3')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-20 01:14:10 --> mysqli_sql_exception: Table 'bhia6715_mtm.package' doesn't exist in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(272): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-02-20 01:14:10 --> Table 'bhia6715_mtm.package' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(272): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `package` WHERE `id`=3')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

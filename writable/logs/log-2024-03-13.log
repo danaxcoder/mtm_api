@@ -1,0 +1,39 @@
+ERROR - 2024-03-13 08:41:01 --> mysqli_sql_exception: Table 'bhia6715_mtm.packages' doesn't exist in C:\xampp\htdocs\mtm_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\mtm_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mtm_api\app\Controllers\User.php(129): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(942): App\Controllers\User->get_packages()
+#5 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mtm_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-13 08:41:01 --> Table 'bhia6715_mtm.packages' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\User.php(129): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `packages` ORDER BY `price`')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_packages()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 14:03:51 --> Undefined variable $i
+in APPPATH\Controllers\User.php on line 470.
+ 1 APPPATH\Controllers\User.php(470): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\xampp\\htdocs\\mtm_api\\app\\Controllers\\User.php', 470)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_task_details()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 14:04:31 --> Undefined variable $i
+in APPPATH\Controllers\User.php on line 470.
+ 1 APPPATH\Controllers\User.php(470): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\xampp\\htdocs\\mtm_api\\app\\Controllers\\User.php', 470)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_task_details()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 19:46:55 --> Undefined property: App\Controllers\User::$input
+in APPPATH\Controllers\User.php on line 482.
+ 1 APPPATH\Controllers\User.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', 'C:\\xampp\\htdocs\\mtm_api\\app\\Controllers\\User.php', 482)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_payments()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

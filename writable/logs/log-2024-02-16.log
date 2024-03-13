@@ -1,0 +1,124 @@
+ERROR - 2024-02-16 01:53:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bhia6715_mtm'@'localhost' (using password: YES) in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->login()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->login()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-02-16 01:53:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `user` WHERE `username`=\'d4n4\' AND `password`=\'d4n4\'')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->login()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-16 01:55:15 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bhia6715_mtm'@'localhost' (using password: YES) in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->login()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->login()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-02-16 01:55:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `user` WHERE `username`=\'d4n4\' AND `password`=\'d4n4\'')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->login()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-16 01:55:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bhia6715_mtm'@'localhost' (using password: YES) in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->login()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->login()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-02-16 01:55:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `user` WHERE `username`=\'d4n4\' AND `password`=\'d4n4\'')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->login()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-16 01:56:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'bhia6715_mtm'@'localhost' (using password: YES) in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->login()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->login()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-02-16 01:56:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `user` WHERE `username`=\'d4n4\' AND `password`=\'d4n4\'')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->login()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

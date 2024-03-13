@@ -1,0 +1,1627 @@
+CRITICAL - 2024-03-01 00:35:42 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH/Controllers/User.php on line 296.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:37:15 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH/Controllers/User.php on line 296.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:38:08 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH/Controllers/User.php on line 296.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:43:08 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH/Controllers/User.php on line 296.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:46:09 --> Undefined property: App\Controllers\User::$input
+in APPPATH/Controllers/User.php on line 288.
+ 1 APPPATH/Controllers/User.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 288)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:46:09 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:46:59 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:46:59 --> Undefined property: App\Controllers\User::$input
+in APPPATH/Controllers/User.php on line 288.
+ 1 APPPATH/Controllers/User.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 288)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:48:34 --> Undefined property: App\Controllers\User::$input
+in APPPATH/Controllers/User.php on line 288.
+ 1 APPPATH/Controllers/User.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 288)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:48:34 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:48:53 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:48:53 --> Undefined property: App\Controllers\User::$input
+in APPPATH/Controllers/User.php on line 288.
+ 1 APPPATH/Controllers/User.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 288)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:49:37 --> Undefined property: App\Controllers\User::$input
+in APPPATH/Controllers/User.php on line 288.
+ 1 APPPATH/Controllers/User.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 288)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:49:37 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:49:44 --> Undefined property: App\Controllers\User::$input
+in APPPATH/Controllers/User.php on line 288.
+ 1 APPPATH/Controllers/User.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 288)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:49:57 --> Undefined property: App\Controllers\User::$input
+in APPPATH/Controllers/User.php on line 288.
+ 1 APPPATH/Controllers/User.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 288)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:50:25 --> Undefined property: App\Controllers\User::$input
+in APPPATH/Controllers/User.php on line 288.
+ 1 APPPATH/Controllers/User.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 288)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:52:39 --> Undefined property: App\Controllers\User::$input
+in APPPATH/Controllers/User.php on line 288.
+ 1 APPPATH/Controllers/User.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 288)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:52:57 --> Undefined property: App\Controllers\User::$input
+in APPPATH/Controllers/User.php on line 288.
+ 1 APPPATH/Controllers/User.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$input', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 288)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 00:53:16 --> Undefined variable $customer
+in APPPATH/Controllers/User.php on line 290.
+ 1 APPPATH/Controllers/User.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 290)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 01:14:10 --> Error connecting to the database: mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-01 01:14:10 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=21422 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 01:14:11 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:14:11 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 01:14:12 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-01 01:14:12 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 01:14:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:14:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 01:14:19 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 01:14:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 01:14:19 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 01:14:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 01:15:39 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 01:15:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 01:15:39 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 01:15:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 01:16:24 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 01:16:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 01:16:24 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 01:16:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 01:16:56 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 01:16:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:17:28 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 290.
+ 1 APPPATH/Controllers/User.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 290)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:17:28 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:17:54 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 290.
+ 1 APPPATH/Controllers/User.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 290)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:17:54 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:18:43 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:18:43 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 290.
+ 1 APPPATH/Controllers/User.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 290)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:18:55 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:18:55 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 290.
+ 1 APPPATH/Controllers/User.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 290)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:19:32 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:19:32 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 290.
+ 1 APPPATH/Controllers/User.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 290)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:20:04 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:20:04 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 290.
+ 1 APPPATH/Controllers/User.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 290)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:20:12 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 290.
+ 1 APPPATH/Controllers/User.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 290)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:20:12 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:20:21 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 290.
+ 1 APPPATH/Controllers/User.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 290)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:20:21 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:20:34 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 266.
+ 1 APPPATH/Controllers/User.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 266)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 01:20:34 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 290.
+ 1 APPPATH/Controllers/User.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 290)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 02:12:55 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=2090 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-01 02:12:55 --> Error connecting to the database: mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 02:12:55 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:12:55 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 02:12:56 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 02:12:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 02:12:56 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 02:12:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 02:12:58 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 02:12:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(289): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 02:12:58 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 02:12:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(265): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 02:20:57 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-01 02:20:57 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 02:20:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:20:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 02:31:29 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-01 02:31:29 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 02:31:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:31:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 02:31:31 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 02:31:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 02:31:31 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 02:31:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=0')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:32:07 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 269.
+ 1 APPPATH/Controllers/User.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 269)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:32:07 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:32:40 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 269.
+ 1 APPPATH/Controllers/User.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 269)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:32:40 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:32:55 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:32:55 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 269.
+ 1 APPPATH/Controllers/User.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 269)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:33:19 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 269.
+ 1 APPPATH/Controllers/User.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 269)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:33:19 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:33:26 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 269.
+ 1 APPPATH/Controllers/User.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 269)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:33:26 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:33:52 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 269.
+ 1 APPPATH/Controllers/User.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 269)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:33:52 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:33:58 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:33:58 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 269.
+ 1 APPPATH/Controllers/User.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 269)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:58:11 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:58:16 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:58:49 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:59:29 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 05:23:18 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=16153 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-01 05:23:18 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=16150 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-01 05:23:18 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=16151 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 05:23:18 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 05:23:18 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=42')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 05:23:18 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 05:23:31 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-01 05:23:31 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-01 05:23:31 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_network()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-01 05:23:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(292): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `network` WHERE `customer_id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 05:23:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=42')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 05:23:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 05:51:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[2,3] WHERE `customer_id`=693' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `network...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `network...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `network...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(314): CodeIgniter\Database\BaseConnection->query('UPDATE `network...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->update_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-01 05:51:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[2,3] WHERE `customer_id`=693' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(314): CodeIgniter\Database\BaseConnection->query('UPDATE `network` SET `source`=197, `branch`=[2,3] WHERE `customer_id`=693')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->update_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 05:51:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[2,3] WHERE `customer_id`=693' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `network...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `network...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `network...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(314): CodeIgniter\Database\BaseConnection->query('UPDATE `network...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->update_network()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-01 05:51:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[2,3] WHERE `customer_id`=693' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(314): CodeIgniter\Database\BaseConnection->query('UPDATE `network` SET `source`=197, `branch`=[2,3] WHERE `customer_id`=693')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->update_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 05:53:14 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 293.
+ 1 APPPATH/Controllers/User.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 293)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 06:02:12 --> Array to string conversion
+in APPPATH/Controllers/User.php on line 299.
+ 1 APPPATH/Controllers/User.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 299)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 06:02:17 --> Array to string conversion
+in APPPATH/Controllers/User.php on line 299.
+ 1 APPPATH/Controllers/User.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 299)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 06:02:28 --> Array to string conversion
+in APPPATH/Controllers/User.php on line 299.
+ 1 APPPATH/Controllers/User.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 299)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 06:03:18 --> Array to string conversion
+in APPPATH/Controllers/User.php on line 299.
+ 1 APPPATH/Controllers/User.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 299)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_network()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 09:46:12 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=8975 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-01 09:46:12 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=8978 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(238): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer_payments()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(238): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer_payments()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(238): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_customer_payments()
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-01 09:46:12 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=8977 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 184)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(253): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#5 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(247): App\Controllers\User->get_payment_status(1, 2024)
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_payment_statuses()
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'bhia6715_mtm', Object(SensitiveParameterValue), 'bhia6715_mtm', 3306, '', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(253): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(247): App\Controllers\User->get_payment_status(1, 2024)
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_payment_statuses()
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(253): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(247): App\Controllers\User->get_payment_status(1, 2024)
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->get_payment_statuses()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-01 09:46:12 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(268): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `customer` WHERE `id`=693')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 09:46:12 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(253): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `payment` WHERE MONTH(`date`)=01 AND YEAR(`date`)=2024')
+ 3 APPPATH/Controllers/User.php(247): App\Controllers\User->get_payment_status(1, 2024)
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_payment_statuses()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 09:46:12 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Controllers/User.php(238): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `payment` WHERE `customer_id`=693 ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_customer_payments()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 10:12:45 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 340.
+ 1 APPPATH/Controllers/User.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 340)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_payment_by_month()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 10:13:56 --> Undefined variable $id
+in APPPATH/Controllers/User.php on line 341.
+ 1 APPPATH/Controllers/User.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 341)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_payment_by_month()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 10:39:45 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 340.
+ 1 APPPATH/Controllers/User.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 340)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_payment_by_month()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 10:39:48 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 340.
+ 1 APPPATH/Controllers/User.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 340)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_payment_by_month()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 10:40:02 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 340.
+ 1 APPPATH/Controllers/User.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 340)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_payment_by_month()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 10:40:11 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 340.
+ 1 APPPATH/Controllers/User.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 340)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_payment_by_month()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 10:40:56 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 340.
+ 1 APPPATH/Controllers/User.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 340)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_payment_by_month()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 10:43:44 --> Undefined variable $payment
+in APPPATH/Controllers/User.php on line 339.
+ 1 APPPATH/Controllers/User.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payment', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 339)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->get_payment_by_month()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

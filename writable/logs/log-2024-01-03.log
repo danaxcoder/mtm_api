@@ -1,0 +1,20 @@
+CRITICAL - 2024-01-03 10:15:53 --> Undefined property: App\Controllers\User::$db
+in APPPATH/Controllers/User.php on line 15.
+ 1 APPPATH/Controllers/User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$db', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->login()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 10:17:11 --> Undefined variable $db
+in APPPATH/Controllers/User.php on line 15.
+ 1 APPPATH/Controllers/User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->login()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 10:17:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH/Controllers/User.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->login()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,896 @@
+CRITICAL - 2024-01-04 13:36:28 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 34.
+ 1 APPPATH/Controllers/User.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 34)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 13:36:58 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 34.
+ 1 APPPATH/Controllers/User.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 34)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 13:37:20 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 34.
+ 1 APPPATH/Controllers/User.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 34)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 13:42:18 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 46.
+ 1 APPPATH/Controllers/User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 46)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 13:52:25 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 13:52:25 --> Column count doesn't match value count at row 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Yanto Ponakan Parmo TJSR\', \'Selatan Cletongan TJSR\', \'OKE 5Mbps\',  IDR130,000 , \'085238078899\', -8.287805, 113.55711, \'2024-02-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 13:53:17 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 13:53:17 --> Column count doesn't match value count at row 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Yanto Ponakan Parmo TJSR\', \'Selatan Cletongan TJSR\', \'OKE 5Mbps\',  IDR130,000 , \'085238078899\', -8.287805, 113.55711, \'2024-02-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:00:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:00:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:01:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:01:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:01:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:01:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(47): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:03:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(48): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:03:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(48): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:04:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(50): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:04:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(50): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:09:48 --> syntax error, unexpected identifier "rifatul", expecting ")"
+in APPPATH/Controllers/User.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:10:01 --> syntax error, unexpected identifier "rifatul", expecting ")"
+in APPPATH/Controllers/User.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:14:26 --> sizeof(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH/Controllers/User.php on line 34.
+ 1 APPPATH/Controllers/User.php(34): sizeof(null)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:18:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:18:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:18:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:18:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:18:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:18:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:18:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:18:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:19:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:19:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:19:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:19:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:19:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:19:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:19:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:19:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:20:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:20:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '085335973770', -8.288363, 113.568143, '2024-05-11')' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Husnul Cilot SBJO\', \'\', \'VIA_IH_2MB\', -, \'085335973770\', -8.288363, 113.568143, \'2024-05-11\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:22:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rifatul Laili GLDN', 'GLDN, Utara Muhari', 'OKE 5Mbps', 130000, '', -8.298458, 1' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:22:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rifatul Laili GLDN', 'GLDN, Utara Muhari', 'OKE 5Mbps', 130000, '', -8.298458, 1' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Mu\'rifatul Laili GLDN\', \'GLDN, Utara Muhari\', \'OKE 5Mbps\', 130000, \'\', -8.298458, 113.549965, \'2024-01-20\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:23:19 --> Call to undefined function App\Controllers\chknll()
+in APPPATH/Controllers/User.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:23:42 --> Call to undefined function App\Controllers\chknll()
+in APPPATH/Controllers/User.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:23:55 --> Call to undefined function App\Controllers\chknll()
+in APPPATH/Controllers/User.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:24:10 --> Call to undefined function App\Controllers\chknll()
+in APPPATH/Controllers/User.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:24:22 --> Call to undefined function App\Controllers\chknll()
+in APPPATH/Controllers/User.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:24:34 --> Call to undefined function App\Controllers\chknll()
+in APPPATH/Controllers/User.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:25:04 --> Call to undefined function App\Controllers\chknll()
+in APPPATH/Controllers/User.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:26:07 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 36.
+ 1 APPPATH/Controllers/User.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:28:00 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 36.
+ 1 APPPATH/Controllers/User.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:29:18 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 36.
+ 1 APPPATH/Controllers/User.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:29:40 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 36.
+ 1 APPPATH/Controllers/User.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:31:38 --> Undefined array key 0
+in APPPATH/Controllers/User.php on line 35.
+ 1 APPPATH/Controllers/User.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 35)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:32:19 --> Undefined array key 0
+in APPPATH/Controllers/User.php on line 35.
+ 1 APPPATH/Controllers/User.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 35)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:32:52 --> Undefined array key 0
+in APPPATH/Controllers/User.php on line 35.
+ 1 APPPATH/Controllers/User.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 35)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:33:50 --> Undefined array key 0
+in APPPATH/Controllers/User.php on line 35.
+ 1 APPPATH/Controllers/User.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 35)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:34:27 --> Undefined array key 0
+in APPPATH/Controllers/User.php on line 34.
+ 1 APPPATH/Controllers/User.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 34)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:34:57 --> Undefined array key 0
+in APPPATH/Controllers/User.php on line 34.
+ 1 APPPATH/Controllers/User.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 34)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:35:40 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 36.
+ 1 APPPATH/Controllers/User.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:37:42 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 36.
+ 1 APPPATH/Controllers/User.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:38:07 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 36.
+ 1 APPPATH/Controllers/User.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:38:10 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 36.
+ 1 APPPATH/Controllers/User.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:38:20 --> syntax error, unexpected token ")"
+in APPPATH/Controllers/User.php on line 36.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:40:11 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 36.
+ 1 APPPATH/Controllers/User.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 14:40:28 --> Undefined array key "package"
+in APPPATH/Controllers/User.php on line 36.
+ 1 APPPATH/Controllers/User.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "package"', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:41:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:41:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:42:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:42:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:42:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:42:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:43:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:43:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:43:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:43:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:43:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:43:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:43:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:43:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:44:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:44:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 14:44:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 14:44:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 15:45:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 15:45:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 15:45:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 15:45:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 15:45:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 15:45:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 15:47:17 --> mysqli_sql_exception: Unknown column 'Halimatus Sadiyah' in 'field list' in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 15:47:17 --> Unknown column 'Halimatus Sadiyah' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (`Halimatus Sadiyah`, `UBD, Timur Sumur Bor`, `RAKYAT 2Mb`, 100000, `085856863477`, -8.278386, 113.559972, `2024-01-10`)')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:50:40 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 35.
+ 1 APPPATH/Controllers/User.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 35)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:50:42 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/User.php on line 35.
+ 1 APPPATH/Controllers/User.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php', 35)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 15:50:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 15:50:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:52:14 --> syntax error, unexpected single-quoted string "diyah","address":"UBD, Timur S...", expecting ")"
+in APPPATH/Controllers/User.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:52:43 --> syntax error, unexpected single-quoted string "diyah","address":"UBD, Timur S...", expecting ")"
+in APPPATH/Controllers/User.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:53:39 --> syntax error, unexpected single-quoted string "diyah","address":"UBD, Timur S...", expecting ")"
+in APPPATH/Controllers/User.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:53:47 --> syntax error, unexpected single-quoted string "diyah","address":"UBD, Timur S...", expecting ")"
+in APPPATH/Controllers/User.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:53:56 --> syntax error, unexpected single-quoted string "diyah","address":"UBD, Timur S...", expecting ")"
+in APPPATH/Controllers/User.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:54:53 --> syntax error, unexpected single-quoted string "diyah","address":"UBD, Timur S...", expecting ")"
+in APPPATH/Controllers/User.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:54:54 --> syntax error, unexpected single-quoted string "diyah","address":"UBD, Timur S...", expecting ")"
+in APPPATH/Controllers/User.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:55:17 --> syntax error, unexpected single-quoted string "diyah","address":"UBD, Timur S...", expecting ")"
+in APPPATH/Controllers/User.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:55:26 --> syntax error, unexpected single-quoted string "diyah","address":"UBD, Timur S...", expecting ")"
+in APPPATH/Controllers/User.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 15:56:42 --> syntax error, unexpected single-quoted string "diyah","address":"UBD, Timur S...", expecting ")"
+in APPPATH/Controllers/User.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 15:58:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1 in /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/htdocs/mtm_api/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO cus...', 0)
+#1 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO cus...')
+#2 /storage/emulated/0/htdocs/mtm_api/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO cus...')
+#3 /storage/emulated/0/htdocs/mtm_api/app/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO cus...')
+#4 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(942): App\Controllers\User->import_customers()
+#5 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /storage/emulated/0/htdocs/mtm_api/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/htdocs/mtm_api/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-04 15:58:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'diyah', 'UBD, Timur Sumur Bor', 'RAKYAT 2Mb', 100000, '085856863477', -8.278386,' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Controllers/User.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO customer (name, address, package, price, phone, latitude, longitude, expiry) VALUES (\'Halimatus Sa\'diyah\', \'UBD, Timur Sumur Bor\', \'RAKYAT 2Mb\', 100000, \'085856863477\', -8.278386, 113.559972, \'2024-01-10\')')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User->import_customers()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
