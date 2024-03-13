@@ -45,3 +45,5 @@ $routes->post('/get_tasks', 'User::get_tasks');
 $routes->post('/get_task_details', 'User::get_task_details');
 $routes->post('/update_task_status', 'User::update_task_status');
 $routes->post('/get_payments', 'User::get_payments');
+$routes->post('/get_user', 'User::get_user');
+$routes->post('/update_user_password', 'User::update_user_password');

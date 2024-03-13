@@ -499,4 +499,16 @@ class User extends BaseController
 		}
 		return json_encode($payments);
 	}
+	
+	public function get_user() {
+		$id = intval($this->request->getVar('id'));
+		$user = $this->db->query("SELECT * FROM `user` WHERE `id`=".$id)->getRowArray();
+		return json_encode($user);
+	}
+	
+	public function update_user_password() {
+		$id = intval($this->request->getVar('id'));
+		$password = $this->request->getVar('password');
+		$this->db->query("UPDATE `user` SET `password`='".$password."' WHERE `id`=".$id);
+	}
 }
