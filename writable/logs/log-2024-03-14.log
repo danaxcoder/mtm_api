@@ -1,0 +1,25 @@
+ERROR - 2024-03-14 05:31:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MONTH(`date`)=03 AND YEAR(`date`)=2024 AND `status`='completed'' at line 1 in C:\xampp\htdocs\mtm_api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\mtm_api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mtm_api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mtm_api\app\Controllers\User.php(241): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(942): App\Controllers\User->get_paying_customers()
+#5 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\mtm_api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mtm_api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-14 05:31:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MONTH(`date`)=03 AND YEAR(`date`)=2024 AND `status`='completed'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\User.php(241): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `payment` WHERE `user_id`=1 MONTH(`date`)=03 AND YEAR(`date`)=2024 AND `status`=\'completed\'')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->get_paying_customers()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 20:50:36 --> Undefined variable $odcID
+in APPPATH\Controllers\User.php on line 546.
+ 1 APPPATH\Controllers\User.php(546): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $odcID', 'C:\\xampp\\htdocs\\mtm_api\\app\\Controllers\\User.php', 546)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->update_odp()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

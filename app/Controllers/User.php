@@ -503,6 +503,12 @@ class User extends BaseController
 	public function get_user() {
 		$id = intval($this->request->getVar('id'));
 		$user = $this->db->query("SELECT * FROM `user` WHERE `id`=".$id)->getRowArray();
+		$odpID = intval($user['odp_id']);
+		$odcID = intval($user['odc_id']);
+		$odp = $this->db->query("SELECT * FROM `odp` WHERE `id`=".$odpID)->getRowArray();
+		$odc = $this->db->query("SELECT * FROM `odc` WHERE `id`=".$odcID)->getRowArray();
+		$user['odp'] = $odp;
+		$user['odc'] = $odc;
 		return json_encode($user);
 	}
 	
@@ -510,5 +516,39 @@ class User extends BaseController
 		$id = intval($this->request->getVar('id'));
 		$password = $this->request->getVar('password');
 		$this->db->query("UPDATE `user` SET `password`='".$password."' WHERE `id`=".$id);
+	}
+	
+	public function get_odps() {
+		$odps = $this->db->query("SELECT * FROM `odp` ORDER BY `name`")->getResultArray();
+		return json_encode($odps);
+	}
+	
+	public function get_odcs() {
+		$odcs = $this->db->query("SELECT * FROM `odc` ORDER BY `name`")->getResultArray();
+		return json_encode($odcs);
+	}
+	
+	public function get_odp() {
+		$id = intval($this->request->getVar('id'));
+		$odp = $this->db->query("SELECT * FROM `odp` WHERE `id`=".$id)->getRowArray();
+		return json_encode($odp);
+	}
+	
+	public function get_odc() {
+		$id = intval($this->request->getVar('id'));
+		$odc = $this->db->query("SELECT * FROM `odc` WHERE `id`=".$id)->getRowArray();
+		return json_encode($odc);
+	}
+	
+	public function update_odc() {
+		$id = intval($this->request->getVar('id'));
+		$odcID = intval($this->request->getVar('odc_id'));
+		$this->db->query("UPDATE `user` SET `odc_id`=".$odcID." WHERE `id`=".$id);
+	}
+	
+	public function update_odp() {
+		$id = intval($this->request->getVar('id'));
+		$odpID = intval($this->request->getVar('odp_id'));
+		$this->db->query("UPDATE `user` SET `odp_id`=".$odpID." WHERE `id`=".$id);
 	}
 }
